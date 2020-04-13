@@ -6,7 +6,7 @@ variable "resource_group" {
   description = "Name of resource group to provision resources"
 }
 
-varible "os_reference" {
+variable "os_reference" {
   description = ""
   default = "UBUNTU_18_64"
 }
