@@ -5,6 +5,8 @@ locals {
    }
 
 resource "ibm_compute_vm_instance" "twc_terraform_sample" {
+  hostname                   = "schematicsvsi"
+  domain                     = "schematicsvsi.com"
   os_reference_code          = "${var.os_reference}"
   datacenter                 = "${var.datacenter}"
   network_speed              = 10
