@@ -27,7 +27,7 @@ Allí debera proporcional un nombre, las etiquetas que desee, la descripción y 
 <img width="400" alt="img8" src="https://user-images.githubusercontent.com/40369712/78298384-d1926d80-74f7-11ea-88d6-877e7202ca48.png">
 </p>
 
-Ingrese la [URL del git](https://github.com/emeloibmco/Schematics-VPC-Schematics-3-Tier-App-Joomla/tree/master/Terraform) donde se encuentra la plantilla de despliegue de terraform y presione recuperar variables de entrada.
+Ingrese la [URL del git](https://github.com/emeloibmco/Schematics-Classic-Infrastructure-VSI) donde se encuentra la plantilla de despliegue de terraform y presione recuperar variables de entrada.
 
 <p align="center">
 <img width="400" alt="img8" src="https://user-images.githubusercontent.com/40369712/78303221-e116b400-7501-11ea-9d71-6d2ce8610c74.png">
@@ -36,7 +36,7 @@ Ingrese la [URL del git](https://github.com/emeloibmco/Schematics-VPC-Schematics
 Ingrese en los campos las variables necesarias para el despliegue, en este caso el API key de infraestructura, la llave publica ssh y el grupo de recursos.
 
 <p align="center">
-<img width="800" alt="img8" src="https://user-images.githubusercontent.com/40369712/78373792-a871eb80-7590-11ea-8348-f194fcf57618.png">
+<img width="800" alt="img8" src="https://user-images.githubusercontent.com/40369712/79141546-a58cad00-7d7f-11ea-8915-da9e35c9837d.png">
 </p>
 
 Una vez creado el espacio de trabajo, presione generar plan y posteriormente aplicar plan para desplegar los recursos descritos en la plantilla.
@@ -52,4 +52,5 @@ Una vez creado el espacio de trabajo, presione generar plan y posteriormente apl
 
 # Referencias 📖
 
-* [Pagina de joomla](http://tomcat.apache.org/)
+* [IBM Cloud provider docs](https://ibm-cloud.github.io/tf-ibm-docs/v0.24.4/r/compute_vm_instance.html)
+* [IBM Cloud Schematics](https://cloud.ibm.com/schematics/workspaces)
