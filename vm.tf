@@ -1,7 +1,7 @@
 provider "ibm" {
-  ibmcloud_api_key    = "${var.ibm_bmx_api_key}"
-  iaas_classic_username = "${var.ibm_sl_username}"
-  iaas_classic_api_key  = "${var.ibm_sl_api_key}"
+  ibmcloud_api_key    = "${var.ibmcloud_api_key}"
+  iaas_classic_username = "${var.iaas_classic_username}"
+  iaas_classic_api_key  = "${var.iaas_classic_api_key}"
 }
 
 resource "ibm_compute_vm_instance" "twc_terraform_sample" {
