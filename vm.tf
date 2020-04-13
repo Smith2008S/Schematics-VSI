@@ -4,11 +4,11 @@ resource "ibm_compute_vm_instance" "twc_terraform_sample" {
   domain                     = "ibm.schematicsvsi.com"
   os_reference_code          = "${var.os_reference}"
   datacenter                 = "${var.datacenter}"
-  network_speed              = 10
-  private_network_only       = false
-  cores                      = 1
-  memory                     = 1024
-  disks                      = [25, 10, 20]
-  dedicated_acct_host_only   = true
-  local_disk                 = false
+  network_speed        = 100
+  hourly_billing       = true
+  private_network_only = true
+  cores                = 1
+  memory               = 1024
+  disks                = [25]
+  local_disk           = false
 }
